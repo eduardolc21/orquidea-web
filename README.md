@@ -92,3 +92,5 @@ Ver también `PENDIENTES-CLIENTE.md` y `REDIRECTS.md`.
 ## Vista previa en GitHub Pages
 
 La vista previa no se indexa en buscadores: todos los HTML llevan `<meta name="robots" content="noindex, nofollow">` y `robots.txt` dice `Disallow: /`. **Al publicar en el dominio real**, quita esa meta de las páginas públicas (deja `noindex` solo en checkout y gracias) y restaura `robots.txt` con el bloque comentado que contiene.
+
+> Durante la vista previa, `og:url` y `og:image` apuntan a `https://eduardolc21.github.io/orquidea-web/` para que la tarjeta al compartir (WhatsApp, Facebook) muestre imagen. Al pasar al dominio real, cámbialos a `https://orquideaperu.com/`.
