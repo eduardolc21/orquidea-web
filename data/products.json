@@ -1,0 +1,1917 @@
+[
+  {
+    "id": 1,
+    "name": "Dark Chocolate 72%",
+    "slug": "organica-dark-72",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=organica-dark-72",
+    "sku": "ORQ-001",
+    "short_description": "<p>Nuestra tableta más intensa: 72% de cacao orgánico de San Martín, con las notas frutales y ácidas del cacao de la región.</p>",
+    "description": "<p>Nuestra tableta más intensa: 72% de cacao orgánico de San Martín, con las notas frutales y ácidas del cacao de la región.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1490",
+      "regular_price": "1490",
+      "sale_price": "1490",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 1,
+        "src": "assets/img/productos/organica-dark-72-480.webp",
+        "thumbnail": "assets/img/productos/organica-dark-72-240.webp",
+        "srcset": "assets/img/productos/organica-dark-72-240.webp 240w, assets/img/productos/organica-dark-72-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "organica-dark-72",
+        "alt": "Dark Chocolate 72%: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tabletas orgánicas",
+        "slug": "tabletas-organicas",
+        "link": "index.html#tienda-tabletas-organicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "72%",
+            "slug": "72"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Certificación",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 3,
+            "name": "Orgánico",
+            "slug": "orgánico"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Dark Chocolate 72%» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "azul",
+        "ingredientes": "Cacao orgánico de San Martín y azúcar.",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dark Chocolate con Kiwicha 65%",
+    "slug": "organica-dark-kiwicha-65",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=organica-dark-kiwicha-65",
+    "sku": "ORQ-002",
+    "short_description": "<p>Chocolate oscuro orgánico con kiwicha (amaranto), un grano andino.</p>",
+    "description": "<p>Chocolate oscuro orgánico con kiwicha (amaranto), un grano andino.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1490",
+      "regular_price": "1490",
+      "sale_price": "1490",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 2,
+        "src": "assets/img/productos/organica-dark-kiwicha-65-480.webp",
+        "thumbnail": "assets/img/productos/organica-dark-kiwicha-65-240.webp",
+        "srcset": "assets/img/productos/organica-dark-kiwicha-65-240.webp 240w, assets/img/productos/organica-dark-kiwicha-65-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "organica-dark-kiwicha-65",
+        "alt": "Dark Chocolate con Kiwicha 65%: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tabletas orgánicas",
+        "slug": "tabletas-organicas",
+        "link": "index.html#tienda-tabletas-organicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "65%",
+            "slug": "65"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "80 g",
+            "slug": "80g"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Certificación",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 3,
+            "name": "Orgánico",
+            "slug": "orgánico"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Dark Chocolate con Kiwicha 65%» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "amarillo",
+        "ingredientes": "Cacao orgánico, azúcar y kiwicha (amaranto).",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Dark Chocolate con Cacao Nibs 65%",
+    "slug": "organica-dark-cacao-nibs-65",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=organica-dark-cacao-nibs-65",
+    "sku": "ORQ-003",
+    "short_description": "<p>Chocolate oscuro orgánico con trocitos de cacao tostado (nibs) para quienes quieren el grano entero.</p>",
+    "description": "<p>Chocolate oscuro orgánico con trocitos de cacao tostado (nibs) para quienes quieren el grano entero.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1490",
+      "regular_price": "1490",
+      "sale_price": "1490",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 3,
+        "src": "assets/img/productos/organica-dark-cacao-nibs-65-480.webp",
+        "thumbnail": "assets/img/productos/organica-dark-cacao-nibs-65-240.webp",
+        "srcset": "assets/img/productos/organica-dark-cacao-nibs-65-240.webp 240w, assets/img/productos/organica-dark-cacao-nibs-65-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "organica-dark-cacao-nibs-65",
+        "alt": "Dark Chocolate con Cacao Nibs 65%: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tabletas orgánicas",
+        "slug": "tabletas-organicas",
+        "link": "index.html#tienda-tabletas-organicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "65%",
+            "slug": "65"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Certificación",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 3,
+            "name": "Orgánico",
+            "slug": "orgánico"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Dark Chocolate con Cacao Nibs 65%» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Cacao orgánico, azúcar y nibs de cacao.",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mild Dark 65%",
+    "slug": "organica-mild-dark-65",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=organica-mild-dark-65",
+    "sku": "ORQ-004",
+    "short_description": "<p>Un oscuro más suave: 65% de cacao orgánico, para empezar en el chocolate oscuro.</p>",
+    "description": "<p>Un oscuro más suave: 65% de cacao orgánico, para empezar en el chocolate oscuro.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1490",
+      "regular_price": "1490",
+      "sale_price": "1490",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 4,
+        "src": "assets/img/productos/organica-mild-dark-65-480.webp",
+        "thumbnail": "assets/img/productos/organica-mild-dark-65-240.webp",
+        "srcset": "assets/img/productos/organica-mild-dark-65-240.webp 240w, assets/img/productos/organica-mild-dark-65-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "organica-mild-dark-65",
+        "alt": "Mild Dark 65%: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tabletas orgánicas",
+        "slug": "tabletas-organicas",
+        "link": "index.html#tienda-tabletas-organicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "65%",
+            "slug": "65"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Certificación",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 3,
+            "name": "Orgánico",
+            "slug": "orgánico"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Mild Dark 65%» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "crema",
+        "ingredientes": "Cacao orgánico y azúcar.",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Dark Chocolate con Quinoa 65%",
+    "slug": "organica-dark-quinoa-65",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=organica-dark-quinoa-65",
+    "sku": "ORQ-005",
+    "short_description": "<p>Chocolate oscuro orgánico con quinua, otro grano nativo del Perú.</p>",
+    "description": "<p>Chocolate oscuro orgánico con quinua, otro grano nativo del Perú.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1490",
+      "regular_price": "1490",
+      "sale_price": "1490",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 5,
+        "src": "assets/img/productos/organica-dark-quinoa-65-480.webp",
+        "thumbnail": "assets/img/productos/organica-dark-quinoa-65-240.webp",
+        "srcset": "assets/img/productos/organica-dark-quinoa-65-240.webp 240w, assets/img/productos/organica-dark-quinoa-65-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "organica-dark-quinoa-65",
+        "alt": "Dark Chocolate con Quinoa 65%: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tabletas orgánicas",
+        "slug": "tabletas-organicas",
+        "link": "index.html#tienda-tabletas-organicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "65%",
+            "slug": "65"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "80 g",
+            "slug": "80g"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Certificación",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 3,
+            "name": "Orgánico",
+            "slug": "orgánico"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Dark Chocolate con Quinoa 65%» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "rojo",
+        "ingredientes": "Cacao orgánico, azúcar y quinua.",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Chocolate con Leche y Coco",
+    "slug": "clasica-leche-coco",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=clasica-leche-coco",
+    "sku": "ORQ-006",
+    "short_description": "<p>Chocolate con leche y coco.</p>",
+    "description": "<p>Chocolate con leche y coco.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "990",
+      "regular_price": "990",
+      "sale_price": "990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 6,
+        "src": "assets/img/productos/clasica-leche-coco-480.webp",
+        "thumbnail": "assets/img/productos/clasica-leche-coco-240.webp",
+        "srcset": "assets/img/productos/clasica-leche-coco-240.webp 240w, assets/img/productos/clasica-leche-coco-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "clasica-leche-coco",
+        "alt": "Chocolate con Leche y Coco: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 2,
+        "name": "Tabletas clásicas",
+        "slug": "tabletas-clasicas",
+        "link": "index.html#tienda-tabletas-clasicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "35%",
+            "slug": "35"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocolate con Leche y Coco» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "blanco",
+        "ingredientes": "Cacao, azúcar, leche y coco.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Moka",
+    "slug": "clasica-moka",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=clasica-moka",
+    "sku": "ORQ-007",
+    "short_description": "<p>Chocolate con leche y café: 42% de cacao.</p>",
+    "description": "<p>Chocolate con leche y café: 42% de cacao.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "990",
+      "regular_price": "990",
+      "sale_price": "990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 7,
+        "src": "assets/img/productos/clasica-moka-480.webp",
+        "thumbnail": "assets/img/productos/clasica-moka-240.webp",
+        "srcset": "assets/img/productos/clasica-moka-240.webp 240w, assets/img/productos/clasica-moka-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "clasica-moka",
+        "alt": "Moka: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 2,
+        "name": "Tabletas clásicas",
+        "slug": "tabletas-clasicas",
+        "link": "index.html#tienda-tabletas-clasicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "42%",
+            "slug": "42"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Moka» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "verde",
+        "ingredientes": "Cacao, azúcar, leche y café.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Chocolate con Leche",
+    "slug": "clasica-leche",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=clasica-leche",
+    "sku": "ORQ-008",
+    "short_description": "<p>El chocolate con leche de siempre, con cacao de San Martín.</p>",
+    "description": "<p>El chocolate con leche de siempre, con cacao de San Martín.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "990",
+      "regular_price": "990",
+      "sale_price": "990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 8,
+        "src": "assets/img/productos/clasica-leche-480.webp",
+        "thumbnail": "assets/img/productos/clasica-leche-240.webp",
+        "srcset": "assets/img/productos/clasica-leche-240.webp 240w, assets/img/productos/clasica-leche-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "clasica-leche",
+        "alt": "Chocolate con Leche: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 2,
+        "name": "Tabletas clásicas",
+        "slug": "tabletas-clasicas",
+        "link": "index.html#tienda-tabletas-clasicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "35%",
+            "slug": "35"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocolate con Leche» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "celeste",
+        "ingredientes": "Cacao, azúcar y leche.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Chocolate con Leche y Kiwicha",
+    "slug": "clasica-leche-kiwicha",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=clasica-leche-kiwicha",
+    "sku": "ORQ-009",
+    "short_description": "<p>Chocolate con leche y kiwicha.</p>",
+    "description": "<p>Chocolate con leche y kiwicha.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "990",
+      "regular_price": "990",
+      "sale_price": "990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 9,
+        "src": "assets/img/productos/clasica-leche-kiwicha-480.webp",
+        "thumbnail": "assets/img/productos/clasica-leche-kiwicha-240.webp",
+        "srcset": "assets/img/productos/clasica-leche-kiwicha-240.webp 240w, assets/img/productos/clasica-leche-kiwicha-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "clasica-leche-kiwicha",
+        "alt": "Chocolate con Leche y Kiwicha: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 2,
+        "name": "Tabletas clásicas",
+        "slug": "tabletas-clasicas",
+        "link": "index.html#tienda-tabletas-clasicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "35%",
+            "slug": "35"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "80 g",
+            "slug": "80g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocolate con Leche y Kiwicha» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "amarillo",
+        "ingredientes": "Cacao, azúcar, leche y kiwicha.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Chocolate con Leche y Pecanas",
+    "slug": "clasica-leche-pecanas",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=clasica-leche-pecanas",
+    "sku": "ORQ-010",
+    "short_description": "<p>Chocolate con leche y trozos de pecana.</p>",
+    "description": "<p>Chocolate con leche y trozos de pecana.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1090",
+      "regular_price": "1090",
+      "sale_price": "1090",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 10,
+        "src": "assets/img/productos/clasica-leche-pecanas-480.webp",
+        "thumbnail": "assets/img/productos/clasica-leche-pecanas-240.webp",
+        "srcset": "assets/img/productos/clasica-leche-pecanas-240.webp 240w, assets/img/productos/clasica-leche-pecanas-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "clasica-leche-pecanas",
+        "alt": "Chocolate con Leche y Pecanas: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 2,
+        "name": "Tabletas clásicas",
+        "slug": "tabletas-clasicas",
+        "link": "index.html#tienda-tabletas-clasicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "35%",
+            "slug": "35"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocolate con Leche y Pecanas» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "naranja",
+        "ingredientes": "Cacao, azúcar, leche y pecanas.",
+        "alergenos": [
+          "leche",
+          "frutos secos"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Chocolate con Leche y Nueces",
+    "slug": "clasica-leche-nueces",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=clasica-leche-nueces",
+    "sku": "ORQ-011",
+    "short_description": "<p>Chocolate con leche y trozos de nuez.</p>",
+    "description": "<p>Chocolate con leche y trozos de nuez.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1090",
+      "regular_price": "1090",
+      "sale_price": "1090",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 11,
+        "src": "assets/img/productos/clasica-leche-nueces-480.webp",
+        "thumbnail": "assets/img/productos/clasica-leche-nueces-240.webp",
+        "srcset": "assets/img/productos/clasica-leche-nueces-240.webp 240w, assets/img/productos/clasica-leche-nueces-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "clasica-leche-nueces",
+        "alt": "Chocolate con Leche y Nueces: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 2,
+        "name": "Tabletas clásicas",
+        "slug": "tabletas-clasicas",
+        "link": "index.html#tienda-tabletas-clasicas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "35%",
+            "slug": "35"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "90 g",
+            "slug": "90g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocolate con Leche y Nueces» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "fucsia",
+        "ingredientes": "Cacao, azúcar, leche y nueces.",
+        "alergenos": [
+          "leche",
+          "frutos secos"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Chocoteja de Guindones",
+    "slug": "chocoteja-guindones",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=chocoteja-guindones",
+    "sku": "ORQ-012",
+    "short_description": "<p>Chocoteja rellena de guindones.</p>",
+    "description": "<p>Chocoteja rellena de guindones.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "350",
+      "regular_price": "350",
+      "sale_price": "350",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 12,
+        "src": "assets/img/productos/chocoteja-guindones-480.webp",
+        "thumbnail": "assets/img/productos/chocoteja-guindones-240.webp",
+        "srcset": "assets/img/productos/chocoteja-guindones-240.webp 240w, assets/img/productos/chocoteja-guindones-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "chocoteja-guindones",
+        "alt": "Chocoteja de Guindones: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 3,
+        "name": "Chocotejas y más",
+        "slug": "chocotejas-y-mas",
+        "link": "index.html#tienda-chocotejas-y-mas"
+      }
+    ],
+    "attributes": [],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocoteja de Guindones» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Chocolate y guindones (ciruela seca).",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque",
+        "chocoteja: peso desconocido"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Chocoteja de Maracuyá",
+    "slug": "chocoteja-maracuya",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=chocoteja-maracuya",
+    "sku": "ORQ-013",
+    "short_description": "<p>Chocoteja con relleno de maracuyá, una fruta de la selva.</p>",
+    "description": "<p>Chocoteja con relleno de maracuyá, una fruta de la selva.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "350",
+      "regular_price": "350",
+      "sale_price": "350",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 13,
+        "src": "assets/img/productos/chocoteja-maracuya-480.webp",
+        "thumbnail": "assets/img/productos/chocoteja-maracuya-240.webp",
+        "srcset": "assets/img/productos/chocoteja-maracuya-240.webp 240w, assets/img/productos/chocoteja-maracuya-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "chocoteja-maracuya",
+        "alt": "Chocoteja de Maracuyá: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 3,
+        "name": "Chocotejas y más",
+        "slug": "chocotejas-y-mas",
+        "link": "index.html#tienda-chocotejas-y-mas"
+      }
+    ],
+    "attributes": [],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocoteja de Maracuyá» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Chocolate y relleno de maracuyá.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque",
+        "chocoteja: peso desconocido"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Chocoteja de Pasas",
+    "slug": "chocoteja-pasas",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=chocoteja-pasas",
+    "sku": "ORQ-014",
+    "short_description": "<p>Chocoteja rellena de pasas.</p>",
+    "description": "<p>Chocoteja rellena de pasas.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "350",
+      "regular_price": "350",
+      "sale_price": "350",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 14,
+        "src": "assets/img/productos/chocoteja-pasas-480.webp",
+        "thumbnail": "assets/img/productos/chocoteja-pasas-240.webp",
+        "srcset": "assets/img/productos/chocoteja-pasas-240.webp 240w, assets/img/productos/chocoteja-pasas-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "chocoteja-pasas",
+        "alt": "Chocoteja de Pasas: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 3,
+        "name": "Chocotejas y más",
+        "slug": "chocotejas-y-mas",
+        "link": "index.html#tienda-chocotejas-y-mas"
+      }
+    ],
+    "attributes": [],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocoteja de Pasas» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Chocolate y pasas.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque",
+        "chocoteja: peso desconocido"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Chocoteja de Pecanas",
+    "slug": "chocoteja-pecanas",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=chocoteja-pecanas",
+    "sku": "ORQ-015",
+    "short_description": "<p>Chocoteja rellena de pecanas.</p>",
+    "description": "<p>Chocoteja rellena de pecanas.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "350",
+      "regular_price": "350",
+      "sale_price": "350",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 15,
+        "src": "assets/img/productos/chocoteja-pecanas-480.webp",
+        "thumbnail": "assets/img/productos/chocoteja-pecanas-240.webp",
+        "srcset": "assets/img/productos/chocoteja-pecanas-240.webp 240w, assets/img/productos/chocoteja-pecanas-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "chocoteja-pecanas",
+        "alt": "Chocoteja de Pecanas: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 3,
+        "name": "Chocotejas y más",
+        "slug": "chocotejas-y-mas",
+        "link": "index.html#tienda-chocotejas-y-mas"
+      }
+    ],
+    "attributes": [],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocoteja de Pecanas» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Chocolate y pecanas.",
+        "alergenos": [
+          "leche",
+          "frutos secos"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque",
+        "chocoteja: peso desconocido"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Chocolate para Taza 55%",
+    "slug": "chocolate-para-taza-55",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=chocolate-para-taza-55",
+    "sku": "ORQ-016",
+    "short_description": "<p>Tableta para preparar chocolate caliente: se disuelve en leche o agua.</p>",
+    "description": "<p>Tableta para preparar chocolate caliente: se disuelve en leche o agua.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "1290",
+      "regular_price": "1290",
+      "sale_price": "1290",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 16,
+        "src": "assets/img/productos/chocolate-para-taza-55-480.webp",
+        "thumbnail": "assets/img/productos/chocolate-para-taza-55-240.webp",
+        "srcset": "assets/img/productos/chocolate-para-taza-55-240.webp 240w, assets/img/productos/chocolate-para-taza-55-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "chocolate-para-taza-55",
+        "alt": "Chocolate para Taza 55%: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 3,
+        "name": "Chocotejas y más",
+        "slug": "chocotejas-y-mas",
+        "link": "index.html#tienda-chocotejas-y-mas"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "% cacao",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "55%",
+            "slug": "55"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 2,
+            "name": "100 g",
+            "slug": "100g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Chocolate para Taza 55%» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Cacao 55% y azúcar.",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Cobertura Dark",
+    "slug": "cobertura-dark",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=cobertura-dark",
+    "sku": "ORQ-017",
+    "short_description": "<p>Cobertura de chocolate oscuro (bitter) para repostería y pastelería.</p>",
+    "description": "<p>Cobertura de chocolate oscuro (bitter) para repostería y pastelería.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "4990",
+      "regular_price": "4990",
+      "sale_price": "4990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 17,
+        "src": "assets/img/productos/cobertura-dark-480.webp",
+        "thumbnail": "assets/img/productos/cobertura-dark-240.webp",
+        "srcset": "assets/img/productos/cobertura-dark-240.webp 240w, assets/img/productos/cobertura-dark-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "cobertura-dark",
+        "alt": "Cobertura Dark: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 4,
+        "name": "Coberturas",
+        "slug": "coberturas",
+        "link": "index.html#tienda-coberturas"
+      }
+    ],
+    "attributes": [],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Cobertura Dark» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Cacao y azúcar.",
+        "alergenos": []
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Cobertura de Leche",
+    "slug": "cobertura-leche",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=cobertura-leche",
+    "sku": "ORQ-018",
+    "short_description": "<p>Cobertura de chocolate con leche para repostería y pastelería.</p>",
+    "description": "<p>Cobertura de chocolate con leche para repostería y pastelería.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "4990",
+      "regular_price": "4990",
+      "sale_price": "4990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 18,
+        "src": "assets/img/productos/cobertura-leche-480.webp",
+        "thumbnail": "assets/img/productos/cobertura-leche-240.webp",
+        "srcset": "assets/img/productos/cobertura-leche-240.webp 240w, assets/img/productos/cobertura-leche-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "cobertura-leche",
+        "alt": "Cobertura de Leche: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 4,
+        "name": "Coberturas",
+        "slug": "coberturas",
+        "link": "index.html#tienda-coberturas"
+      }
+    ],
+    "attributes": [],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Cobertura de Leche» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "cacao",
+        "ingredientes": "Cacao, azúcar y leche.",
+        "alergenos": [
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Panetón Orquídea",
+    "slug": "paneton-orquidea",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=paneton-orquidea",
+    "sku": "ORQ-019",
+    "short_description": "<p>Panetón con pasas y frutas confitadas, hecho por Orquídea para esta Navidad.</p>",
+    "description": "<p>Panetón con pasas y frutas confitadas, hecho por Orquídea para esta Navidad.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "3990",
+      "regular_price": "3990",
+      "sale_price": "3990",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 19,
+        "src": "assets/img/productos/paneton-orquidea-480.webp",
+        "thumbnail": "assets/img/productos/paneton-orquidea-240.webp",
+        "srcset": "assets/img/productos/paneton-orquidea-240.webp 240w, assets/img/productos/paneton-orquidea-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "paneton-orquidea",
+        "alt": "Panetón Orquídea: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 5,
+        "name": "Navidad",
+        "slug": "navidad",
+        "link": "index.html#tienda-navidad"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "900 g",
+            "slug": "900g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Panetón Orquídea» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "crema",
+        "ingredientes": "Panetón con pasas y frutas confitadas.",
+        "alergenos": [
+          "gluten",
+          "huevo",
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque",
+        "La caja fotografiada dice 900 g; el borrador decía 500 g"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Choco Panetón Orquídea",
+    "slug": "choco-paneton-orquidea",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "producto.html?slug=choco-paneton-orquidea",
+    "sku": "ORQ-020",
+    "short_description": "<p>Panetón con chispas de chocolate Orquídea, en caja de 500 g.</p>",
+    "description": "<p>Panetón con chispas de chocolate Orquídea, en caja de 500 g.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "4290",
+      "regular_price": "4290",
+      "sale_price": "4290",
+      "price_range": null,
+      "currency_code": "PEN",
+      "currency_symbol": "S/",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "S/ ",
+      "currency_suffix": ""
+    },
+    "images": [
+      {
+        "id": 20,
+        "src": "assets/img/productos/choco-paneton-orquidea-480.webp",
+        "thumbnail": "assets/img/productos/choco-paneton-orquidea-240.webp",
+        "srcset": "assets/img/productos/choco-paneton-orquidea-240.webp 240w, assets/img/productos/choco-paneton-orquidea-480.webp 480w",
+        "sizes": "(min-width: 64em) 22vw, 45vw",
+        "name": "choco-paneton-orquidea",
+        "alt": "Choco Panetón Orquídea: empaque de Chocolate Orquídea"
+      }
+    ],
+    "categories": [
+      {
+        "id": 5,
+        "name": "Navidad",
+        "slug": "navidad",
+        "link": "index.html#tienda-navidad"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Peso",
+        "taxonomy": null,
+        "has_variations": false,
+        "terms": [
+          {
+            "id": 1,
+            "name": "500 g",
+            "slug": "500g"
+          }
+        ]
+      }
+    ],
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+      "text": "Agregar",
+      "description": "Agregar «Choco Panetón Orquídea» al carrito",
+      "url": "",
+      "minimum": 1,
+      "maximum": 24,
+      "multiple_of": 1
+    },
+    "extensions": {
+      "orquidea": {
+        "linea": "crema",
+        "ingredientes": "Panetón con chispas de chocolate Orquídea.",
+        "alergenos": [
+          "gluten",
+          "huevo",
+          "leche"
+        ]
+      }
+    },
+    "_placeholder": {
+      "precio": true,
+      "ingredientes": true,
+      "verificar": [
+        "% y peso leídos del empaque"
+      ]
+    }
+  }
+]

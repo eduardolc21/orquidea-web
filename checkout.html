@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finalizar compra · Chocolate Orquídea</title>
+<meta name="description" content="Completa tus datos de entrega y envía tu pedido por WhatsApp.">
+<link rel="canonical" href="https://orquideaperu.com/checkout.html">
+<meta name="theme-color" content="#471b00">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PE">
+<meta property="og:site_name" content="Chocolate Orquídea">
+<meta property="og:title" content="Finalizar compra · Chocolate Orquídea">
+<meta property="og:description" content="Completa tus datos de entrega y envía tu pedido por WhatsApp.">
+<meta property="og:url" content="https://orquideaperu.com/checkout.html">
+<meta property="og:image" content="https://orquideaperu.com/assets/img/og-orquidea.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/brand/logo/orquidea-isotipo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/alfa-slab-one-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/schibsted-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/sections.css">
+<meta name="robots" content="noindex">
+<script type="module" src="js/checkout.js"></script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<a class="orq-skip" href="#contenido">Saltar al contenido</a>
+<header class="orq-header">
+  <div class="orq-header__inner">
+    <a class="orq-header__brand" href="index.html" aria-label="Chocolate Orquídea, inicio"><img class="orq-logo" src="assets/img/logo-orquidea-oro-320.webp" srcset="assets/img/logo-orquidea-oro-320.webp 320w, assets/img/logo-orquidea-oro-640.webp 640w" sizes="9.5rem" width="320" height="67" alt=""></a>
+    <nav class="orq-nav" id="orq-nav" data-orq-nav aria-label="Principal">
+      <ul class="orq-nav__list" role="list"><li><a class="orq-nav__link" href="index.html#tienda">Tienda</a></li><li><a class="orq-nav__link" href="index.html#historia">Historia</a></li><li><a class="orq-nav__link" href="index.html#comunidad">Comunidad</a></li><li><a class="orq-nav__link" href="index.html#donde-comprar">Dónde comprar</a></li><li><a class="orq-nav__link" href="index.html#contacto">Contacto</a></li></ul>
+    </nav>
+    <button class="orq-btn orq-btn--ghost orq-btn--icon orq-nav__toggle" type="button" data-orq-nav-toggle aria-expanded="false" aria-controls="orq-nav" aria-label="Menú"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-menu"></use></svg></button>
+    <button class="orq-plate" type="button" data-orq-cart-open data-orq-cart-plate aria-label="Carrito vacío" aria-haspopup="dialog">
+      <span class="orq-plate__label" aria-hidden="true">Carrito</span><span class="orq-plate__count orq-num" data-orq-cart-count aria-hidden="true">0</span>
+    </button>
+  </div>
+</header>
+<main class="orq-main orq-wrap" id="contenido">
+  <div class="orq-board orq-board--light orq-page">
+    <nav class="orq-crumbs" aria-label="Ruta"><a href="index.html#tienda">Seguir comprando</a></nav>
+    <h1 class="orq-letter orq-title">Finalizar compra</h1>
+    <p class="orq-lead" style="margin-bottom:var(--orq-space-lg)">Completa tus datos. Al confirmar, generamos tu número de pedido y lo enviamos por WhatsApp; ahí te confirmamos el total y te pasamos los datos de pago (Yape, Plin o transferencia).</p>
+    <div class="orq-checkout">
+      <form class="orq-form" data-orq-checkout-form novalidate hidden>
+        <div class="orq-notice orq-notice--error" data-orq-errors role="alert" tabindex="-1" hidden></div>
+        <fieldset class="orq-fieldset">
+          <legend class="orq-letter">Tus datos</legend>
+          <div class="orq-form__grid">
+            <div class="orq-field "><label class="orq-field__label" for="co-name">Nombre y apellido</label><input class="orq-field__input" id="co-name" name="name" autocomplete="name" required aria-describedby="co-name-error"><p class="orq-field__error" id="co-name-error"></p></div>
+            <div class="orq-field "><label class="orq-field__label" for="co-phone">Celular</label><input class="orq-field__input" id="co-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="9XX XXX XXX" aria-describedby="co-phone-error"><p class="orq-field__error" id="co-phone-error"></p></div>
+            <div class="orq-field "><label class="orq-field__label" for="co-email">Correo</label><input class="orq-field__input" id="co-email" name="email" type="email" autocomplete="email" required aria-describedby="co-email-error"><p class="orq-field__error" id="co-email-error"></p></div>
+          </div>
+          <div class="orq-field">
+            <span class="orq-field__label" id="co-doc-label">Comprobante</span>
+            <div class="orq-segmented" role="radiogroup" aria-labelledby="co-doc-label">
+              <label><input type="radio" name="docType" value="boleta" checked><span>Boleta</span></label>
+              <label><input type="radio" name="docType" value="factura"><span>Factura</span></label>
+            </div>
+          </div>
+          <div class="orq-form__grid">
+            <div class="orq-field "><label class="orq-field__label" for="co-docNumber">DNI</label><input class="orq-field__input" id="co-docNumber" name="docNumber" inputmode="numeric" autocomplete="off" required maxlength="8" aria-describedby="co-docNumber-error"><p class="orq-field__error" id="co-docNumber-error"></p></div>
+            <div data-orq-company hidden><div class="orq-field "><label class="orq-field__label" for="co-company">Razón social</label><input class="orq-field__input" id="co-company" name="company" autocomplete="organization" aria-describedby="co-company-error"><p class="orq-field__error" id="co-company-error"></p></div></div>
+          </div>
+        </fieldset>
+        <fieldset class="orq-fieldset">
+          <legend class="orq-letter">Entrega</legend>
+          <div class="orq-field "><label class="orq-field__label" for="co-address">Dirección</label><input class="orq-field__input" id="co-address" name="address" autocomplete="street-address" required aria-describedby="co-address-error co-address-hint"><p class="orq-field__hint" id="co-address-hint">Calle, número, departamento y una referencia.</p><p class="orq-field__error" id="co-address-error"></p></div>
+          <div class="orq-form__grid">
+            <div class="orq-field "><label class="orq-field__label" for="co-district">Distrito y ciudad</label><input class="orq-field__input" id="co-district" name="district" autocomplete="address-level2" required placeholder="Ej.: Morales, Tarapoto" aria-describedby="co-district-error"><p class="orq-field__error" id="co-district-error"></p></div>
+            <div class="orq-field"><label class="orq-field__label" for="co-zone">Zona de envío</label>
+              <select class="orq-field__input" id="co-zone" name="zone" required aria-describedby="co-zone-error"><option value="">Elige tu zona</option></select>
+              <p class="orq-field__error" id="co-zone-error"></p></div>
+          </div>
+          <div class="orq-field" id="co-rate" tabindex="-1">
+            <span class="orq-field__label">Forma de envío</span>
+            <div class="orq-rates" data-orq-rates><p class="orq-field__hint">Elige primero tu zona.</p></div>
+            <p class="orq-field__error" id="co-rate-error"></p>
+          </div>
+          <p class="orq-drawer__note" style="color:inherit"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-cold"></use></svg><span>El chocolate viaja en empaque térmico para que llegue en buen estado, también a la selva y la costa.</span></p>
+          <div class="orq-field "><label class="orq-field__label" for="co-notes">Notas <span class="orq-field__hint">(opcional)</span></label><textarea class="orq-field__input" id="co-notes" name="notes" maxlength="500" aria-describedby="co-notes-error co-notes-hint"></textarea><p class="orq-field__hint" id="co-notes-hint">Horario de entrega, si es un regalo, etc.</p><p class="orq-field__error" id="co-notes-error"></p></div>
+        </fieldset>
+        <fieldset class="orq-fieldset">
+          <legend class="orq-visually-hidden">Condiciones</legend>
+          <label class="orq-check"><input type="checkbox" name="terms" id="co-terms" required aria-describedby="co-terms-error"><span>Acepto los <a href="legal/terminos.html" target="_blank">términos y condiciones</a> y la <a href="legal/cambios-y-envios.html" target="_blank">política de cambios y envíos</a>.</span></label>
+          <p class="orq-field__error" id="co-terms-error"></p>
+          <label class="orq-check"><input type="checkbox" name="privacy" id="co-privacy" required aria-describedby="co-privacy-error"><span>Acepto la <a href="legal/privacidad.html" target="_blank">política de privacidad</a> y el tratamiento de mis datos para gestionar este pedido (Ley N.º 29733).</span></label>
+          <p class="orq-field__error" id="co-privacy-error"></p>
+          <label class="orq-check"><input type="checkbox" name="promos" id="co-promos"><span>Quiero recibir novedades y promociones de Orquídea (opcional).</span></label>
+        </fieldset>
+        <button class="orq-btn orq-btn--primary orq-btn--block" type="submit"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-whatsapp"></use></svg> Confirmar y enviar por WhatsApp</button>
+        <p class="orq-field__hint">¿Tienes un reclamo? Usa nuestro <a href="legal/libro-reclamaciones.html">Libro de Reclamaciones</a>.</p>
+      </form>
+      <aside class="orq-checkout__summary" data-orq-summary aria-label="Resumen del pedido"><p>Cargando tu carrito…</p></aside>
+    </div>
+  </div>
+</main>
+<footer class="orq-footer" id="contacto">
+  <div class="orq-stripe" aria-hidden="true"></div>
+  <span id="contactanos" aria-hidden="true"></span>
+  <div class="orq-footer__inner">
+    <div>
+      <img class="orq-logo" src="assets/img/logo-orquidea-oro-320.webp" srcset="assets/img/logo-orquidea-oro-320.webp 320w, assets/img/logo-orquidea-oro-640.webp 640w" sizes="9.5rem" width="320" height="67" alt="Orquídea" loading="lazy">
+      <p class="orq-footer__list" style="margin-top:var(--orq-space-sm)">Industrias Mayo · Chocolates Orquídea<br>Jr. Santa Mónica 200, Tarapoto, San Martín, Perú</p>
+    </div>
+    <div>
+      <h2 class="orq-footer__title">Contacto</h2>
+      <ul class="orq-footer__list" role="list">
+        <li><a href="https://wa.me/51945313345" rel="noopener"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-whatsapp"></use></svg> WhatsApp Tarapoto · 945 313 345</a></li>
+        <li><a href="https://wa.me/51951492572" rel="noopener"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-whatsapp"></use></svg> WhatsApp Lima · 951 492 572</a></li>
+        <li><a href="mailto:hola@orquideaperu.com"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-mail"></use></svg> hola@orquideaperu.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="orq-footer__title">Redes</h2>
+      <ul class="orq-footer__list" role="list">
+        <li><a href="https://www.instagram.com/chocolateorquideaperu/" rel="noopener"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-instagram"></use></svg> Instagram</a></li>
+        <li><a href="https://www.facebook.com/chocolatesorquideaperu" rel="noopener"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-facebook"></use></svg> Facebook</a></li>
+        <li><a href="https://www.youtube.com/watch?v=lpyuCaFZwA0" rel="noopener"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-youtube"></use></svg> YouTube</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="orq-footer__title">Compras</h2>
+      <ul class="orq-footer__list" role="list">
+        <li><a href="legal/terminos.html">Términos y condiciones</a></li>
+        <li><a href="legal/privacidad.html">Política de privacidad</a></li>
+        <li><a href="legal/cambios-y-envios.html">Cambios, devoluciones y envíos</a></li>
+      </ul>
+      <p style="margin-top:var(--orq-space-sm)"><a class="orq-reclamaciones" href="legal/libro-reclamaciones.html"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-book"></use></svg> Libro de Reclamaciones</a></p>
+    </div>
+  </div>
+  <div class="orq-footer__legal">
+    <p>© <span data-orq-year>2026</span> Industrias Mayo · Chocolates Orquídea · RUC por confirmar</p>
+    <p>Precios en soles con IGV incluido.</p>
+  </div>
+</footer>
+<dialog class="orq-drawer" data-orq-drawer aria-labelledby="orq-drawer-title">
+  <div class="orq-drawer__head">
+    <h2 class="orq-letter orq-drawer__title" id="orq-drawer-title">Tu carrito</h2>
+    <button class="orq-btn orq-btn--ghost orq-btn--icon" type="button" data-orq-cart-close aria-label="Cerrar carrito"><svg class="orq-icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-close"></use></svg></button>
+  </div>
+  <div class="orq-drawer__body" data-orq-drawer-body></div>
+  <div class="orq-drawer__foot" data-orq-drawer-foot hidden></div>
+</dialog>
+<div class="orq-dock" data-orq-dock inert>
+  <button class="orq-dock__summary" type="button" data-orq-cart-open>
+    <span class="orq-dock__total orq-num" data-orq-dock-total>S/ 0.00</span>
+    <span class="orq-dock__count" data-orq-dock-count>0 productos</span>
+  </button>
+  <a class="orq-btn orq-btn--primary" href="checkout.html">Finalizar</a>
+</div>
+<div class="orq-visually-hidden" data-orq-live aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>

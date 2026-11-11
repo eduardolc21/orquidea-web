@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T18:00:33+00:00",
+  "title": "Design System: Chocolate Orquídea",
+  "extensions": {
+    "colorMeta": {
+      "rotulo-gold": {
+        "role": "primary",
+        "displayName": "Rótulo Gold",
+        "canonical": "#d39c58",
+        "oklch": "oklch(73.1% 0.108 70.6)",
+        "cssVar": "--orq-gold",
+        "tonalRamp": [
+          "#140800",
+          "#352003",
+          "#5c3903",
+          "#835719",
+          "#aa7631",
+          "#ca9b63",
+          "#eac191",
+          "#feebd7"
+        ]
+      },
+      "orchid-red": {
+        "role": "secondary",
+        "displayName": "Orchid Red",
+        "canonical": "#e32c3b",
+        "oklch": "oklch(59.6% 0.216 23.3)",
+        "cssVar": "--orq-red",
+        "tonalRamp": [
+          "#1f0002",
+          "#4d0009",
+          "#7d0c19",
+          "#b41427",
+          "#e6333f",
+          "#fc7572",
+          "#fbb4b0",
+          "#fee9e7"
+        ]
+      },
+      "orchid-red-ink": {
+        "role": "secondary",
+        "displayName": "Orchid Red Ink",
+        "canonical": "#b81e2c",
+        "oklch": "oklch(50.6% 0.187 23.3)",
+        "cssVar": "--orq-red-ink",
+        "tonalRamp": [
+          "#1e0102",
+          "#4b030a",
+          "#7b121b",
+          "#ab2b31",
+          "#db464a",
+          "#f97774",
+          "#feb3ae",
+          "#fee9e7"
+        ]
+      },
+      "cacao-enamel": {
+        "role": "neutral",
+        "displayName": "Cacao Enamel",
+        "canonical": "#471b00",
+        "oklch": "oklch(28.4% 0.077 48.2)",
+        "cssVar": "--orq-cacao",
+        "tonalRamp": [
+          "#170601",
+          "#371d10",
+          "#5b3826",
+          "#81553f",
+          "#a87459",
+          "#c89981",
+          "#e9bfaa",
+          "#ffeadf"
+        ]
+      },
+      "cacao-wall": {
+        "role": "neutral",
+        "displayName": "Cacao Wall",
+        "canonical": "#2b1000",
+        "oklch": "oklch(21.1% 0.054 52.8)",
+        "cssVar": "--orq-cacao-deep",
+        "tonalRamp": [
+          "#140803",
+          "#322116",
+          "#533c2e",
+          "#775a48",
+          "#9d7a65",
+          "#bd9e8b",
+          "#dfc3b2",
+          "#ffeadd"
+        ]
+      },
+      "cacao-relief": {
+        "role": "neutral",
+        "displayName": "Cacao Relief",
+        "canonical": "#5c2a0c",
+        "oklch": "oklch(34.9% 0.084 47.7)",
+        "cssVar": "--orq-cacao-soft",
+        "tonalRamp": [
+          "#180500",
+          "#391d0d",
+          "#5d3724",
+          "#83543c",
+          "#ab7356",
+          "#cb987e",
+          "#ebbea8",
+          "#feeae0"
+        ]
+      },
+      "sign-cream": {
+        "role": "neutral",
+        "displayName": "Sign Cream",
+        "canonical": "#f2e6cf",
+        "oklch": "oklch(92.8% 0.033 83.7)",
+        "cssVar": "--orq-cream",
+        "tonalRamp": [
+          "#0e0b05",
+          "#2a241a",
+          "#484133",
+          "#69604f",
+          "#8c816c",
+          "#aea491",
+          "#d1c8b8",
+          "#f5eee0"
+        ]
+      },
+      "sign-cream-deep": {
+        "role": "neutral",
+        "displayName": "Sign Cream Deep",
+        "canonical": "#e5d4b3",
+        "oklch": "oklch(87.5% 0.048 83.9)",
+        "cssVar": "--orq-cream-deep",
+        "tonalRamp": [
+          "#100a02",
+          "#2c2414",
+          "#4b412c",
+          "#6d6046",
+          "#908062",
+          "#b1a388",
+          "#d4c8b0",
+          "#f8edda"
+        ]
+      },
+      "muted-on-dark": {
+        "role": "neutral",
+        "displayName": "Muted on Dark",
+        "canonical": "#d9c6a6",
+        "oklch": "oklch(83.4% 0.048 80.7)",
+        "cssVar": "--orq-muted-on-dark",
+        "tonalRamp": [
+          "#100a02",
+          "#2c2414",
+          "#4c402c",
+          "#6e5f46",
+          "#918062",
+          "#b3a388",
+          "#d5c7b0",
+          "#f9edda"
+        ]
+      },
+      "muted-on-light": {
+        "role": "neutral",
+        "displayName": "Muted on Light",
+        "canonical": "#6b3d1c",
+        "oklch": "oklch(40.9% 0.079 54.0)",
+        "cssVar": "--orq-muted-on-light",
+        "tonalRamp": [
+          "#170600",
+          "#371e0c",
+          "#5a3922",
+          "#80563a",
+          "#a87554",
+          "#c89a7d",
+          "#e8c0a6",
+          "#feeade"
+        ]
+      },
+      "linea-azul": {
+        "role": "tertiary",
+        "displayName": "Línea Azul",
+        "canonical": "#2b3f8f",
+        "oklch": "oklch(40.0% 0.134 268.9)",
+        "cssVar": "--orq-linea-azul",
+        "tonalRamp": [
+          "#030725",
+          "#15214c",
+          "#2c3d77",
+          "#465ca4",
+          "#627dd2",
+          "#87a1ee",
+          "#b4c8fe",
+          "#e8eefe"
+        ]
+      },
+      "linea-amarillo": {
+        "role": "tertiary",
+        "displayName": "Línea Amarillo",
+        "canonical": "#f0bd1c",
+        "oklch": "oklch(82.1% 0.163 88.2)",
+        "cssVar": "--orq-linea-amarillo",
+        "tonalRamp": [
+          "#100a00",
+          "#302301",
+          "#523f0a",
+          "#775d12",
+          "#9f7d16",
+          "#c99f1f",
+          "#e9c569",
+          "#feedc4"
+        ]
+      },
+      "linea-crema": {
+        "role": "tertiary",
+        "displayName": "Línea Crema",
+        "canonical": "#ead8bd",
+        "oklch": "oklch(89.0% 0.041 78.1)",
+        "cssVar": "--orq-linea-crema",
+        "tonalRamp": [
+          "#100a03",
+          "#2c2417",
+          "#4b4030",
+          "#6d5f4a",
+          "#908067",
+          "#b1a38d",
+          "#d4c7b4",
+          "#f8eddd"
+        ]
+      },
+      "linea-rojo": {
+        "role": "tertiary",
+        "displayName": "Línea Rojo",
+        "canonical": "#c8261f",
+        "oklch": "oklch(54.0% 0.198 28.6)",
+        "cssVar": "--orq-linea-rojo",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0001",
+          "#7e0b09",
+          "#ae261f",
+          "#df4236",
+          "#fd7565",
+          "#fcb5aa",
+          "#fee9e5"
+        ]
+      },
+      "linea-cacao": {
+        "role": "tertiary",
+        "displayName": "Línea Cacao",
+        "canonical": "#5c2a0c",
+        "oklch": "oklch(34.9% 0.084 47.7)",
+        "cssVar": "--orq-linea-cacao",
+        "tonalRamp": [
+          "#180500",
+          "#391d0d",
+          "#5d3724",
+          "#83543c",
+          "#ab7356",
+          "#cb987e",
+          "#ebbea8",
+          "#feeae0"
+        ]
+      },
+      "linea-blanco": {
+        "role": "tertiary",
+        "displayName": "Línea Blanco",
+        "canonical": "#f7f3ea",
+        "oklch": "oklch(96.5% 0.013 86.8)",
+        "cssVar": "--orq-linea-blanco",
+        "tonalRamp": [
+          "#0c0b08",
+          "#272521",
+          "#44423c",
+          "#64615a",
+          "#86827a",
+          "#a8a59d",
+          "#ccc9c3",
+          "#f1eee9"
+        ]
+      },
+      "linea-verde": {
+        "role": "tertiary",
+        "displayName": "Línea Verde",
+        "canonical": "#4caa48",
+        "oklch": "oklch(65.9% 0.163 142.8)",
+        "cssVar": "--orq-linea-verde",
+        "tonalRamp": [
+          "#001000",
+          "#002f01",
+          "#095109",
+          "#227420",
+          "#3c9938",
+          "#6dbb68",
+          "#9bdd96",
+          "#cdfec9"
+        ]
+      },
+      "linea-celeste": {
+        "role": "tertiary",
+        "displayName": "Línea Celeste",
+        "canonical": "#2b9ad6",
+        "oklch": "oklch(65.3% 0.131 238.1)",
+        "cssVar": "--orq-linea-celeste",
+        "tonalRamp": [
+          "#000d17",
+          "#01283e",
+          "#0a4767",
+          "#126894",
+          "#158cc6",
+          "#5aafe3",
+          "#94d2fb",
+          "#dff2ff"
+        ]
+      },
+      "linea-naranja": {
+        "role": "tertiary",
+        "displayName": "Línea Naranja",
+        "canonical": "#ec8418",
+        "oklch": "oklch(71.3% 0.164 58.2)",
+        "cssVar": "--orq-linea-naranja",
+        "tonalRamp": [
+          "#160700",
+          "#3a1d03",
+          "#643402",
+          "#914d03",
+          "#bb6b20",
+          "#e58c40",
+          "#feb882",
+          "#ffeadb"
+        ]
+      },
+      "linea-fucsia": {
+        "role": "tertiary",
+        "displayName": "Línea Fucsia",
+        "canonical": "#b8285e",
+        "oklch": "oklch(52.4% 0.182 3.9)",
+        "cssVar": "--orq-linea-fucsia",
+        "tonalRamp": [
+          "#1d0108",
+          "#48041f",
+          "#77133a",
+          "#a52c57",
+          "#d54776",
+          "#f3769a",
+          "#fab2c3",
+          "#fee8ec"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero sign line only; at ≥56em line-height 0.9 and size capped at 12svh. Two-step painted shade."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One section title per board, with the painted shade."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Drawer title, fieldset legends, order number, family names, legal subheads."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Pizarra names, step and pillar heads, footer column heads."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "All prices; outline (-webkit-text-stroke 1.25px) when unconfirmed, filled when confirmed."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Paragraph under a section title, max 52ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose at a 66ch measure."
+      },
+      "body-sm": {
+        "displayName": "Body Small Bold",
+        "purpose": "Meta lines, chips, hero facts, field labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons: tracked uppercase."
+      },
+      "label-sm": {
+        "displayName": "Label Small",
+        "purpose": "Nav links, badges, place tags."
+      },
+      "plate": {
+        "displayName": "Plate",
+        "purpose": "Cart plate (mototaxi number plate) only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "letter-shade",
+        "value": "text-shadow: 0.045em 0.045em 0 var(--orq-red), 0.08em 0.08em 0 var(--orq-cacao-deep)",
+        "purpose": "Sign lettering on cacao boards."
+      },
+      {
+        "name": "letter-shade-light",
+        "value": "text-shadow: 0.05em 0.05em 0 var(--orq-gold)",
+        "purpose": "Sign lettering on cream boards (cream step on the gold board)."
+      },
+      {
+        "name": "board-shade",
+        "value": "box-shadow: 0.4rem 0.4rem 0 var(--orq-red)",
+        "purpose": "Hard painted shade: pizarras, product gallery panel, primary CTA. Removed on press."
+      },
+      {
+        "name": "shadow-drawer",
+        "value": "box-shadow: -1.5rem 0 3rem rgb(20 6 0 / 0.55)",
+        "purpose": "Cart drawer over a rgb(20 6 0 / 0.6) backdrop."
+      },
+      {
+        "name": "packshot",
+        "value": "filter: drop-shadow(0 0.6rem 0.8rem rgb(20 6 0 / 0.35))",
+        "purpose": "Cut-out packshots inside pizarras."
+      },
+      {
+        "name": "focus",
+        "value": "outline: 3px solid var(--orq-red); outline-offset: 3px; box-shadow: 0 0 0 7px var(--orq-cream)",
+        "purpose": "Every focusable element; pizarras outline as a whole."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Drawer slide-in, dock reveal, plate bump, packshot straighten, progress fill."
+      },
+      {
+        "name": "dur-fast",
+        "value": "140ms",
+        "purpose": "Button colour and border changes."
+      },
+      {
+        "name": "dur",
+        "value": "320ms",
+        "purpose": "Drawer, dock, plate bump, packshot hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durations 0ms; smooth scroll off",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs-max",
+        "value": "29.99em"
+      },
+      {
+        "name": "sm",
+        "value": "40em"
+      },
+      {
+        "name": "md",
+        "value": "56em"
+      },
+      {
+        "name": "lg",
+        "value": "64em"
+      },
+      {
+        "name": "max",
+        "value": "90rem"
+      }
+    ],
+    "provenance": {
+      "productAndOriginRasters": "Sourced brand assets (orquideaperu.com, chocolatesorquidea.com, brand Instagram) resized to WebP; each carries a *.webp.json provenance sidecar.",
+      "logo": "logo-orquidea-oro-*.webp rendered in gold from the auto-traced brand SVG; provisional until the original vector arrives.",
+      "fonts": "Alfa Slab One and Schibsted Grotesk, self-hosted latin woff2 in assets/fonts/."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold sign CTA with the hard red painted shade; inverts and drops into its shade on press.",
+      "html": "<button class=\"ds-btn ds-btn--primary\">Comprar ahora</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:3rem;padding:.75rem 1.375rem;background:var(--orq-cacao,#471b00);color:var(--orq-cream,#f2e6cf);border:2px solid var(--orq-cream,#f2e6cf);border-radius:2px;font-family:\"Schibsted Grotesk\",Arial,sans-serif;font-size:.9375rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;line-height:1.1;cursor:pointer;transition:background-color 140ms,color 140ms,border-color 140ms}.ds-btn--primary{background:#d39c58;color:#471b00;border-color:#f2e6cf;font-size:1.0625rem;min-height:3.5rem;padding-inline:1.75rem;box-shadow:.4rem .4rem 0 #e32c3b}.ds-btn--primary:hover{border-color:#471b00}.ds-btn--primary:active{background:#471b00;color:#d39c58;box-shadow:none;transform:translate(.2rem,.2rem)}.ds-btn:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Cacao plate with cream capitals; gold border on hover; press inverts.",
+      "html": "<button class=\"ds-btn\">Agregar</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:3rem;padding:.75rem 1.375rem;background:#471b00;color:#f2e6cf;border:2px solid #f2e6cf;border-radius:2px;font-family:\"Schibsted Grotesk\",Arial,sans-serif;font-size:.9375rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;line-height:1.1;cursor:pointer;transition:background-color 140ms,color 140ms,border-color 140ms}.ds-btn:hover{border-color:#d39c58}.ds-btn:active{background:#f2e6cf;color:#471b00}.ds-btn:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    },
+    {
+      "name": "Added Button",
+      "kind": "button",
+      "refersTo": "button-added",
+      "description": "State after adding to cart: the one red ink, deepened for text.",
+      "html": "<button class=\"ds-btn-added\" aria-pressed=\"true\">Agregado</button>",
+      "css": ".ds-btn-added{display:inline-flex;align-items:center;min-height:3rem;padding:.75rem 1.375rem;background:#b81e2c;color:#f2e6cf;border:2px solid #f2e6cf;border-radius:2px;font-family:\"Schibsted Grotesk\",Arial,sans-serif;font-size:.9375rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.ds-btn-added:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    },
+    {
+      "name": "Line Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Filter by product line on a cacao board; selected fills with red ink.",
+      "html": "<div class=\"ds-chips-demo\"><button class=\"ds-chip\" aria-pressed=\"true\">Tabletas orgánicas<span class=\"ds-chip__n\">12</span></button><button class=\"ds-chip\" aria-pressed=\"false\">Chocotejas<span class=\"ds-chip__n\">6</span></button></div>",
+      "css": ".ds-chips-demo{display:flex;gap:.5rem;padding:1rem;background:#471b00}.ds-chip{min-height:2.75rem;padding:.5rem 1rem;background:transparent;color:#f2e6cf;border:2px solid #d39c58;border-radius:2px;font-family:\"Schibsted Grotesk\",Arial,sans-serif;font-weight:800;font-size:.9375rem;letter-spacing:.02em;cursor:pointer}.ds-chip:hover{background:#5c2a0c}.ds-chip[aria-pressed=\"true\"]{background:#b81e2c;border-color:#b81e2c}.ds-chip__n{font-weight:420;margin-inline-start:.25em}.ds-chip:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Linea-blanco field with cacao border; red-ink error state.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-field__label\" for=\"ds-cel\">Celular</label><input class=\"ds-field__input\" id=\"ds-cel\" aria-invalid=\"true\" value=\"94531\"><p class=\"ds-field__error\">Revisa el número: debe tener 9 dígitos.</p></div>",
+      "css": ".ds-field{display:grid;gap:.35rem;padding:1rem;background:#f2e6cf;color:#471b00;font-family:\"Schibsted Grotesk\",Arial,sans-serif}.ds-field__label{font-weight:720;font-size:.9375rem}.ds-field__input{min-height:3rem;padding:.65rem .85rem;background:#f7f3ea;color:#471b00;border:2px solid #471b00;border-radius:2px;font:inherit}.ds-field__input:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}.ds-field__input[aria-invalid=\"true\"]{border-color:#b81e2c;box-shadow:inset 0 0 0 1px #b81e2c}.ds-field__error{font-size:.9375rem;font-weight:720;color:#b81e2c;margin:0}"
+    },
+    {
+      "name": "Header with Cart Plate",
+      "kind": "nav",
+      "refersTo": "cart-plate",
+      "description": "Cacao header with gold double rule, tracked links and the mototaxi-plate cart (red border once it holds items).",
+      "html": "<header class=\"ds-header\"><span class=\"ds-logo\">ORQUÍDEA</span><nav class=\"ds-nav\"><a href=\"#\">Tienda</a><a href=\"#\">Historia</a><a href=\"#\">Contacto</a></nav><button class=\"ds-plate ds-plate--items\">Carrito <span class=\"ds-plate__count\">2</span></button></header>",
+      "css": ".ds-header{display:flex;align-items:center;gap:1.5rem;min-height:4.25rem;padding-inline:1.5rem;background:#471b00;border-bottom:3px solid #d39c58;box-shadow:inset 0 -.4rem 0 -.3rem #471b00,inset 0 -.45rem 0 -.3rem #d39c58}.ds-logo{margin-inline-end:auto;font-family:\"Alfa Slab One\",Georgia,serif;color:#d39c58;font-size:1.25rem}.ds-nav{display:flex;gap:1.5rem}.ds-nav a{color:#f2e6cf;font-family:\"Schibsted Grotesk\",Arial,sans-serif;font-size:.8125rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}.ds-nav a:hover{color:#d39c58}.ds-plate{display:inline-flex;align-items:center;gap:.5rem;min-height:2.75rem;padding:.3rem .75rem;background:#f2e6cf;color:#471b00;border:3px solid #d39c58;border-radius:6px;font-family:\"Alfa Slab One\",Georgia,serif;font-size:1rem;letter-spacing:.06em;text-transform:uppercase;line-height:1;cursor:pointer}.ds-plate--items{border-color:#e32c3b}.ds-plate__count{min-width:1.6em;padding:.15em .3em;background:#471b00;color:#f2e6cf;border-radius:2px}.ds-plate--items .ds-plate__count{background:#b81e2c}.ds-plate:active{background:#471b00;color:#f2e6cf}.ds-plate:focus-visible,.ds-nav a:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    },
+    {
+      "name": "Board (tablón)",
+      "kind": "card",
+      "refersTo": "board",
+      "description": "Enamelled section board with double gold filete on the cacao wall; sign lettering with the two-step painted shade; mototaxi stripe at the foot.",
+      "html": "<div class=\"ds-wall\"><section class=\"ds-board\"><h2 class=\"ds-letter\">La tienda</h2><p class=\"ds-lead\">Precios con IGV incluido. Envíos a todo el Perú.</p><div class=\"ds-stripe\"></div></section></div>",
+      "css": ".ds-wall{background:#2b1000;padding:1rem}.ds-board{position:relative;isolation:isolate;background:#471b00;color:#f2e6cf;border:3px solid #d39c58;padding:2.5rem 2.5rem 3rem}.ds-board::before{content:\"\";position:absolute;inset:.5rem;border:1px solid #d39c58;pointer-events:none;z-index:-1}.ds-letter{margin:0 0 1rem;font-family:\"Alfa Slab One\",Georgia,serif;font-weight:400;font-size:3rem;line-height:.95;letter-spacing:-.01em;color:#d39c58;text-shadow:.045em .045em 0 #e32c3b,.08em .08em 0 #2b1000}.ds-lead{margin:0;font-family:\"Schibsted Grotesk\",Arial,sans-serif;font-size:1.25rem;color:#d9c6a6;max-width:52ch}.ds-stripe{position:absolute;inset:auto calc(.5rem + 1px) calc(.5rem + 1px);height:.625rem;background:repeating-linear-gradient(90deg,#e32c3b 0 3.5rem,#d39c58 3.5rem 4rem,#2b3f8f 4rem 7.5rem,#d39c58 7.5rem 8rem,#f0bd1c 8rem 11.5rem,#d39c58 11.5rem 12rem,#4caa48 12rem 15.5rem,#d39c58 15.5rem 16rem)}"
+    },
+    {
+      "name": "Pizarra (product card)",
+      "kind": "card",
+      "refersTo": "pizarra",
+      "description": "Product placard in its line colour with cream edge and hard red painted shade; outline price means unconfirmed.",
+      "html": "<article class=\"ds-pizarra\"><div class=\"ds-pizarra__media\"><svg viewBox=\"0 0 80 100\" width=\"120\" height=\"150\" aria-hidden=\"true\"><rect x=\"10\" y=\"8\" width=\"60\" height=\"84\" fill=\"#f2e6cf\" stroke=\"#471b00\" stroke-width=\"2\"/><rect x=\"10\" y=\"30\" width=\"60\" height=\"18\" fill=\"#d39c58\"/></svg></div><h3 class=\"ds-pizarra__title\">Tableta 70% cacao</h3><p class=\"ds-pizarra__meta\">70% cacao · 80 g</p><div class=\"ds-pizarra__buy\"><p class=\"ds-price ds-price--tbc\">S/ 12.90</p><button class=\"ds-pizarra__btn\">Agregar</button></div></article>",
+      "css": ".ds-pizarra{position:relative;isolation:isolate;display:flex;flex-direction:column;max-width:16rem;padding:1.5rem;background:#2b3f8f;color:#f2e6cf;border:3px solid #f2e6cf;box-shadow:.4rem .4rem 0 #e32c3b;font-family:\"Schibsted Grotesk\",Arial,sans-serif}.ds-pizarra::before{content:\"\";position:absolute;inset:.375rem;border:1px solid currentColor;opacity:.55;pointer-events:none;z-index:-1}.ds-pizarra__media svg{display:block;margin:0 auto .5rem;transform:rotate(-2.5deg);transition:transform 320ms cubic-bezier(.16,1,.3,1);filter:drop-shadow(0 .6rem .8rem rgb(20 6 0/.35))}.ds-pizarra:hover .ds-pizarra__media svg{transform:rotate(0) translateY(-4px)}.ds-pizarra__title{margin:0;font-family:\"Alfa Slab One\",Georgia,serif;font-weight:400;font-size:1.25rem;line-height:1.1}.ds-pizarra__meta{margin:.25rem 0 0;font-size:.9375rem;font-weight:720}.ds-pizarra__buy{display:flex;align-items:end;justify-content:space-between;gap:.75rem;padding-top:1rem}.ds-price{margin:0;font-family:\"Alfa Slab One\",Georgia,serif;font-size:1.625rem;line-height:1}.ds-price--tbc{-webkit-text-fill-color:transparent;-webkit-text-stroke:1.25px currentColor}.ds-pizarra__btn{min-height:3rem;padding:.75rem 1rem;background:#f2e6cf;color:#471b00;border:2px solid #f2e6cf;border-radius:2px;font:800 .9375rem \"Schibsted Grotesk\",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.ds-pizarra__btn:active{background:#471b00;color:#f2e6cf}.ds-pizarra__btn:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    },
+    {
+      "name": "Mobile Cart Dock",
+      "kind": "custom",
+      "refersTo": "dock",
+      "description": "Docked cart bar below 64em: gold display total, item count, primary Finalizar.",
+      "html": "<div class=\"ds-dock\"><button class=\"ds-dock__sum\"><span class=\"ds-dock__total\">S/ 52.80</span><span class=\"ds-dock__count\">3 productos</span></button><a class=\"ds-dock__cta\" href=\"#\">Finalizar</a></div>",
+      "css": ".ds-dock{display:flex;align-items:center;gap:.75rem;padding:.5rem 1rem;background:#471b00;border-top:3px solid #d39c58;font-family:\"Schibsted Grotesk\",Arial,sans-serif}.ds-dock__sum{flex:1;display:grid;text-align:left;background:none;border:0;color:#f2e6cf;min-height:2.75rem;line-height:1.2;cursor:pointer}.ds-dock__total{font-family:\"Alfa Slab One\",Georgia,serif;font-size:1.25rem;color:#d39c58}.ds-dock__count{font-size:.8125rem;font-weight:720;color:#d9c6a6;text-decoration:underline}.ds-dock__cta{display:inline-flex;align-items:center;min-height:3.5rem;padding:.75rem 1.75rem;background:#d39c58;color:#471b00;border:2px solid #f2e6cf;border-radius:2px;box-shadow:.4rem .4rem 0 #e32c3b;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}.ds-dock__cta:active{background:#471b00;color:#d39c58;box-shadow:none;transform:translate(.2rem,.2rem)}.ds-dock__cta:focus-visible,.ds-dock__sum:focus-visible{outline:3px solid #e32c3b;outline-offset:3px;box-shadow:0 0 0 7px #f2e6cf}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Rótulo de Tarapoto",
+    "overview": "The shop is the hand-painted sign of the plant at Jr. Santa Mónica 200, Tarapoto. Every section is an enamelled board (tablón) framed by a double gold filete, hung on a darker cacao wall with one measured gap between boards. Headings are sign lettering: a heavy slab face in gold, carrying a painted shade that steps first into orchid red and then into the wall cacao. Products are small painted placards (pizarras) in the colour of their packaging line, edged in cream and throwing a hard red painted shade, the same shade the main call to action carries.\n\nThe world borrows its details from the street around the plant: the cart is a mototaxi number plate, separators are the striped trim of a mototaxi, and on phones the cart docks to the bottom edge like a bar along the vehicle. Interaction is painted, not lit: pressing a control inverts the board (ground and letter swap places) instead of glowing or lifting. Confidence is drawn in the stroke: data the brand has not confirmed (reference prices, family names whose stories are still pending) is painted as outline lettering; confirmed data is filled.\n\nDensity is generous on the boards and tight inside the pizarras. Long-form reading (checkout, payment details, legal pages) and the retailer passage move to the cream board; everything else sits on cacao enamel. The visual rejections confirmed by the direction: no premium chocolatier in candlelit darkness with a gold serif, and no cream grid with botanical illustration.",
+    "keyCharacteristics": [
+      "Cacao enamel boards with a 3px outer and 1px inner gold filete, stacked on a darker wall with one measured gap.",
+      "Alfa Slab One sign lettering with a two-step painted shade (red, then wall cacao).",
+      "Product pizarras painted in their packaging line colour, cream edge, hard red painted shade.",
+      "Orchid red is the only state ink; pressing inverts.",
+      "Outline lettering means unconfirmed; filled means confirmed.",
+      "Mototaxi stripe separators, mototaxi-plate cart, docked cart bar on mobile."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Rule",
+        "body": "Orchid red is the only colour that means \"something happened\" (added, selected, focused, invalid, complete). Gold is lettering, never state. Use orchid-red-ink whenever red sits behind text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Line Colour Rule",
+        "body": "Line colours belong to products. They paint pizarras, the product gallery panel and the mototaxi stripe, never section boards, buttons or text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cacao Ground Rule",
+        "body": "Boards are cacao by default. The cream board is an exception kept for reading and form work (checkout, order confirmation, legal pages) and for the \"Dónde comprar\" passage; the gold board appears once, for the community story.",
+        "section": "colors"
+      },
+      {
+        "name": "The Painted Shade Rule",
+        "body": "Sign lettering on cacao is gold with a two-step shade: 0.045em in orchid red, then 0.08em in wall cacao. On cream boards the letter turns cacao with a single gold step; on the gold board, cacao with a single cream step. Body text never carries a shade.",
+        "section": "typography"
+      },
+      {
+        "name": "The Stroke of Confidence Rule",
+        "body": "Unconfirmed data is outline lettering (1.25px stroke in the current colour, transparent fill) with an accessible \"por confirmar\" note; confirmed data is filled. Outline lettering means nothing else.",
+        "section": "typography"
+      },
+      {
+        "name": "The Press Inverts Rule",
+        "body": "Pressing swaps ground and letter (cream on cacao becomes cacao on cream). The primary CTA also drops its painted shade and moves 0.2rem into it. Nothing glows or lifts on press.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set every color, size, space and radius through the `--orq-*` custom properties in `css/tokens.css`; it is the single source and ships unchanged to WooCommerce.",
+      "Do name new components in BEM with the `orq-` prefix and attach behavior only through `data-orq-*` attributes, never through classes.",
+      "Do frame every new section as a board with the double filete and leave exactly one board gap between boards.",
+      "Do paint a new product as a pizarra in its packaging line colour, choosing cream or cacao ink by the line's lightness.",
+      "Do render any unconfirmed figure (price, schedule, name) as outline lettering with an accessible \"por confirmar\" note, and fill it once confirmed.",
+      "Do express pressed and selected states by inverting ground and letter, or by orchid-red-ink fill for selection.",
+      "Do keep product and origin rasters with their provenance sidecar (`*.webp.json`): product and origin images are sourced brand assets, and the logo WebPs are rendered from the traced brand SVG until the original vector arrives."
+    ],
+    "donts": [
+      "Don't use orchid red for decoration or emphasis; it is reserved for state, focus, the painted shade and the stripe.",
+      "Don't put cream text on orchid-red (#e32c3b); use orchid-red-ink behind text.",
+      "Don't use line colours for boards, buttons or text.",
+      "Don't blur the painted shades; lettering, pizarra and CTA shades are always hard-edged and offset down-right.",
+      "Don't round boards or pizarras; controls stay at 2px and only the cart plate reaches 6px.",
+      "Don't use outline lettering for confirmed data or as a style choice.",
+      "Don't move to the cream board for anything other than reading, forms, payment data, or the retailer passage."
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+# Material que NO debe quedar público
+_zip/
+PROMPT_claude_code_orquidea.md
+orq_test_logo.png
+.claude/
+.codex/
+.agents/
+.impeccable/*
+!.impeccable/surfaces/
+!.impeccable/design.json
+assets/brand/fotos/_verificar-licencia/
+assets/brand/certificaciones/certificados-pdf-2011-2013-VENCIDOS/
+assets/brand/redes/
+assets/brand/productos/paneton/
+.DS_Store

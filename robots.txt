@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+
+# VISTA PREVIA (GitHub Pages). Al publicar en el dominio real, reemplazar por:
+# User-agent: *
+# Disallow: /checkout.html
+# Disallow: /gracias.html
+# Sitemap: https://orquideaperu.com/sitemap.xml

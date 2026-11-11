@@ -1,0 +1,67 @@
+{
+  "_placeholder": true,
+  "_nota": "Tarifas y monto de envío gratis son MARCADORES: confirmar con el cliente. Montos en céntimos (PEN, IGV incluido).",
+  "currency_code": "PEN",
+  "currency_minor_unit": 2,
+  "free_shipping_threshold": 15000,
+  "free_shipping_zones": [
+    "lima",
+    "tarapoto"
+  ],
+  "zones": [
+    {
+      "id": "lima",
+      "name": "Lima Metropolitana",
+      "rates": [
+        {
+          "rate_id": "lima:delivery",
+          "name": "Delivery a domicilio",
+          "price": "1200",
+          "delivery_time": "1 a 3 días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "tarapoto",
+      "name": "Tarapoto (Morales, Banda de Shilcayo)",
+      "rates": [
+        {
+          "rate_id": "tarapoto:delivery",
+          "name": "Delivery en la ciudad",
+          "price": "600",
+          "delivery_time": "24 horas"
+        },
+        {
+          "rate_id": "tarapoto:recojo",
+          "name": "Recojo en tienda · Jr. Santa Mónica 200",
+          "price": "0",
+          "delivery_time": "Coordinar por WhatsApp"
+        }
+      ]
+    },
+    {
+      "id": "san-martin",
+      "name": "Resto de San Martín",
+      "rates": [
+        {
+          "rate_id": "san-martin:agencia",
+          "name": "Envío por agencia",
+          "price": "1500",
+          "delivery_time": "2 a 4 días hábiles"
+        }
+      ]
+    },
+    {
+      "id": "peru",
+      "name": "Resto del Perú",
+      "rates": [
+        {
+          "rate_id": "peru:agencia",
+          "name": "Envío por agencia (recojo en agencia)",
+          "price": "2000",
+          "delivery_time": "3 a 6 días hábiles"
+        }
+      ]
+    }
+  ]
+}

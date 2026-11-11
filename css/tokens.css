@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Chocolate Orquídea · tokens
+   ÚNICO archivo con colores, tipografía, espaciado, radios y sombras.
+   Se reutiliza tal cual en WordPress/WooCommerce (ver MIGRACION-WOOCOMMERCE.md).
+   ========================================================================== */
+
+@font-face {
+  font-family: "Alfa Slab One";
+  src: url("../assets/fonts/alfa-slab-one-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212;
+}
+@font-face {
+  font-family: "Schibsted Grotesk";
+  src: url("../assets/fonts/schibsted-grotesk-latin-var.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212;
+}
+
+:root {
+  /* --- Esmaltes de marca (tomados del logo y los empaques) --- */
+  --orq-cacao: #471b00;          /* fondo de marca */
+  --orq-cacao-deep: #2b1000;     /* la pared entre tablones */
+  --orq-cacao-soft: #5c2a0c;     /* relieve sobre cacao */
+  --orq-gold: #d39c58;           /* logotipo dorado */
+  --orq-gold-soft: #e6c18f;
+  --orq-cream: #f2e6cf;          /* letra clara / tablón claro */
+  --orq-cream-deep: #e5d4b3;
+  --orq-red: #e32c3b;            /* rojo orquídea: ÚNICA tinta de estado */
+  --orq-red-ink: #b81e2c;        /* rojo para fondos con texto (contraste AA) */
+
+  /* --- Colores de línea (solo para pizarras de producto) --- */
+  --orq-linea-azul: #2b3f8f;
+  --orq-linea-amarillo: #f0bd1c;
+  --orq-linea-crema: #ead8bd;
+  --orq-linea-rojo: #c8261f;
+  --orq-linea-cacao: #5c2a0c;
+  --orq-linea-blanco: #f7f3ea;
+  --orq-linea-verde: #4caa48;
+  --orq-linea-celeste: #2b9ad6;
+  --orq-linea-naranja: #ec8418;
+  --orq-linea-fucsia: #b8285e;
+
+  /* --- Roles --- */
+  --orq-bg: var(--orq-cacao-deep);
+  --orq-text: var(--orq-cream);
+  --orq-text-on-light: var(--orq-cacao);
+  --orq-muted-on-dark: #d9c6a6;   /* texto secundario sobre cacao (≥ 7:1) */
+  --orq-muted-on-light: #6b3d1c;  /* texto secundario sobre crema (≥ 7:1) */
+  --orq-accent: var(--orq-gold);
+  --orq-state: var(--orq-red);
+  --orq-state-fill: var(--orq-red-ink);
+  --orq-success: #2f6b2a;
+  --orq-error: var(--orq-red-ink);
+  --orq-focus: var(--orq-red);
+  --orq-focus-halo: var(--orq-cream);
+  --orq-selection-bg: var(--orq-gold);
+  --orq-selection-text: var(--orq-cacao);
+
+  /* --- Tipografía --- */
+  --orq-font-display: "Alfa Slab One", "Rockwell", "Roboto Slab", Georgia, serif;
+  --orq-font-body: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --orq-text-xs: 0.8125rem;
+  --orq-text-sm: 0.9375rem;
+  --orq-text-md: 1.0625rem;
+  --orq-text-lg: clamp(1.1875rem, 1.05rem + 0.5vw, 1.375rem);
+  --orq-text-xl: clamp(1.5rem, 1.2rem + 1.2vw, 2.125rem);
+  --orq-text-2xl: clamp(2rem, 1.4rem + 2.6vw, 3.5rem);
+  --orq-text-hero: clamp(2.75rem, 0.9rem + 7.4vw, 8.25rem);
+  --orq-leading-tight: 0.95;
+  --orq-leading-snug: 1.2;
+  --orq-leading-body: 1.55;
+  --orq-tracking-caps: 0.08em;
+  --orq-weight-regular: 420;
+  --orq-weight-bold: 720;
+  --orq-weight-black: 800;
+
+  /* --- Sombra de rótulo (la "sombra" pintada de la letra) --- */
+  --orq-shade-1: var(--orq-red);
+  --orq-shade-2: var(--orq-cacao-deep);
+  --orq-letter-shade: 0.045em 0.045em 0 var(--orq-shade-1), 0.08em 0.08em 0 var(--orq-shade-2);
+  --orq-letter-shade-light: 0.05em 0.05em 0 var(--orq-gold);
+  --orq-board-shade: 0.4rem 0.4rem 0 var(--orq-red);   /* sombra pintada del rótulo (pizarras y CTA) */
+  --orq-shadow-drawer: -1.5rem 0 3rem rgb(20 6 0 / 0.55);
+  --orq-shadow-lift: 0 0.75rem 1.75rem rgb(20 6 0 / 0.35);
+
+  /* --- Espaciado (escala única) --- */
+  --orq-space-3xs: 0.25rem;
+  --orq-space-2xs: 0.5rem;
+  --orq-space-xs: 0.75rem;
+  --orq-space-sm: 1rem;
+  --orq-space-md: 1.5rem;
+  --orq-space-lg: clamp(2rem, 1.5rem + 2vw, 3rem);
+  --orq-space-xl: clamp(3rem, 2rem + 4vw, 5.5rem);
+  --orq-gutter: clamp(1rem, 0.5rem + 2.5vw, 3.5rem);
+  --orq-board-gap: clamp(0.5rem, 0.3rem + 0.8vw, 1rem);   /* separación medida entre tablones */
+  --orq-board-pad: clamp(1.25rem, 0.6rem + 3.2vw, 4rem);
+  --orq-max: 90rem;
+  --orq-measure: 66ch;
+
+  /* --- Bordes y radios (rótulo = esquinas casi rectas) --- */
+  --orq-filete: 3px;          /* filete exterior del tablón */
+  --orq-filete-inner: 1px;    /* filete interior */
+  --orq-filete-inset: 0.5rem;
+  --orq-radius-sm: 2px;
+  --orq-radius-md: 4px;
+  --orq-radius-plate: 6px;
+
+  /* --- Capas y movimiento --- */
+  --orq-z-header: 50;
+  --orq-z-dock: 60;
+  --orq-z-drawer: 80;
+  --orq-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --orq-dur-fast: 140ms;
+  --orq-dur: 320ms;
+  --orq-header-h: 4.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --orq-dur-fast: 0ms; --orq-dur: 0ms; }
+}
